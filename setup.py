@@ -9,13 +9,13 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setup(
     name='PySide6_VerticalQTabWidget',
-    version='0.0.1',
+    version='0.0.2',
     author='Maurilio Genovese',
     author_email='mauriliogenovese@gmail.com',
     license='MIT',
     packages=find_packages(),
     description='Vertical QTabWidget for PySide6',
-    url='',
+    url='https://github.com/mauriliogenovese/PySide6_VerticalQTabWidget',
     long_description_content_type='text/markdown',
     long_description=long_description,
     install_requires=[
