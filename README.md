@@ -1,5 +1,5 @@
-# pySide6-vertical-tab-widget
-PySide6 vertical tab widget
+# PySide6_VerticalQTabWidget
+Vertical QTabWidget for PySide6
 
 ## Requirements
 PySide6 >= 6.4
@@ -18,5 +18,3 @@ widget2 = QWidget()
 vertical_tab_widget.addTab(widget1, "First Tab")
 vertical_tab_widget.addTab(widget2, "Second Tab")
 ```
-
-
