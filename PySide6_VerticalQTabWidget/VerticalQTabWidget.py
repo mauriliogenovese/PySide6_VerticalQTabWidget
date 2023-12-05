@@ -4,10 +4,12 @@ from PySide6 import QtCore
 
 
 class VerticalQTabWidget(QTabWidget):
-    def __init__(self):
+    def __init__(self, force_top_valign=False):
         super(VerticalQTabWidget, self).__init__()
         self.setTabBar(VerticalQTabBar())
         self.setTabPosition(QTabWidget.West)
+        if force_top_valign:
+            self.setStyleSheet("QTabWidget::tab-bar {left : 0;}")  # using stylesheet on initializing
 
     def paintEvent(self, event):
         painter = QStylePainter(self)

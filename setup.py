@@ -9,7 +9,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setup(
     name='PySide6_VerticalQTabWidget',
-    version='0.0.2',
+    version='0.0.3',
     author='Maurilio Genovese',
     author_email='mauriliogenovese@gmail.com',
     license='MIT',
